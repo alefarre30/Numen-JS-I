@@ -1,0 +1,48 @@
+1 - Variables
+Una variable es un espacio en memoria donde se almacenan datos temporalmente los mismos son accedidos 
+utilizando un identificador que no es otra cosa que el nombre que le damos a la variable.
+Las variables podrian verse como una caja donde almacenamos objetos, segun el tamaño del objeto se 
+necesitaria una caja mas o menos grande la caja representaria la posicion en la memoria, y los objetos 
+el dato que se necesita almacenar, ejemplo si quisieramos almacenar la edad nuestra hariamos lo siguiente 
+
+let edad = 34;
+
+2 - Strings
+Un string es una secuencia de caracteres encerrados entre comillas dobles o simples, que representan 
+un valor de texto.
+
+let nombre = "Alejandra";
+
+3 - Funciones (argumentos, `return`)
+Son bloques de codigo que realizan acciones especificas, nos permiten dividir un programa grande en 
+pequeños bloques de codigo, de esta forma podemos reutilizar en distintas partes del programa dichas 
+funciones sin tener que repetir codigo.
+
+function suma(n1, n2){
+    return n1 + n2;
+}
+
+suma(1,1); // retorna 2
+suma(2,5); // retorna 7
+
+4 - Declaraciones `if`
+Son estructura de control de flujo que nos permiten tomar decisiones en relacion a una determinada 
+condicion, con ellas podemos alterar el flujo de un programa para que realice una u otra tarea.
+
+let edad = 18;
+if(edad > 18){
+    return "Sos adulto";
+}else{
+    return "Aun sos un niño";
+}
+
+5 - Valores booleanos (`true`, `false`)
+Es un tipo de dato que nos permite establecer un estado logico muy util a la hora de evaluar condiciones 
+tiene solo 2 valores posibles, verdadero (TRUE) o falso (FALSE).
+
+let estado = true;
+if(estado){
+    return "Es verdader";
+}else{
+    return "Es falso";
+}
