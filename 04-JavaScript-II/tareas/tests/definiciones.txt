@@ -1,0 +1,50 @@
+1 - Bucle for: 
+
+La sentencia FOR nos permite repetir un bloque de codigo un numero determinado de veces, esta formado 
+por 3 parametros, el primero inicia la variable contador, el segundo evalua una condicion y el ultimo 
+actualiza el valor del contador.
+
+Ejemplo de un bucle for:
+
+for(let i=0; i<10; i++){
+    console.log("Me repito 10 veces");
+}
+
+El primer parametro del for se ejecutara solo la primera iteracion, y inmediatamente despues se realizara
+la evaluacion de la condicional, en caso de cumplirse se ejecutara lo que se encuentre entre las llaves 
+posteriormente se ejecutara la actualizacion del contador, y asi hasta que deje de cumplirse la condicional. 
+
+Veamoslo paso a paso:
+
+A - Se inicializa el contador let i = 0 (Esto se realizara solo la primera vez)
+B - Se evalua la condicional i < 10 
+C - De cumplirse se ejecutara lo que se encuentre entre los bloques {}
+D - Se actualiza la variable i++ 
+E - Se repite la secuencia hasta que la condicion deje de ser verdadera.
+
+--------------------------------------------------------------------------------------------------------
+
+2 - Operadores logicos
+
+Estos operadores nos permiten evaluar mas de una condicion, de esta forma se pueden realizar condicionales 
+mas complejas.
+
+Ejemplo si tuvieramos que evaluar si una persona tiene entre 18 y 30 años hariamos lo siguiente: 
+
+if(edad>=18&&edad<=30){
+    return true;
+}
+
+Esta expresion evalua si la edad se encuentra entre un rango determinado, para que sea verdadera es 
+necesario que ambas condiciones sean verdaderas.
+
+En el caso del OR con que una sola sea verdadera es suficiente para que devuelva verdadero (TRUE).
+
+Operador ! (Negacion)
+
+Este operador invierte el valor devuelto por una condicional, si la condicion es true devolvera un false 
+y viceversa, veamos un ejemplo:
+
+let condicion = true;
+
+console.log(!condicion);  //Esto retornara false ya que el operador ! invierte el resultado.
