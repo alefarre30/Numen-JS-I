@@ -17,7 +17,7 @@ posteriormente se ejecutara la actualizacion del contador, y asi hasta que deje 
 Veamoslo paso a paso:
 
 A - Se inicializa el contador let i = 0 (Esto se realizara solo la primera vez)
-B - Se evalua la condicional i < 10 
+B - Se evalua la condicional i < 10. 
 C - De cumplirse se ejecutara lo que se encuentre entre los bloques {}
 D - Se actualiza la variable i++ 
 E - Se repite la secuencia hasta que la condicion deje de ser verdadera.
