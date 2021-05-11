@@ -1,0 +1,24 @@
+1 - Arrays:
+Un array es una coleccion de elementos que puede ser de igual o diferente tipo y que para acceder a cada 
+elemento es necesario especificarle un indice, las posiciones en los arreglos siempre comienzan por el 
+valor 0.
+
+Ejemplo de declaracion de un arreglo:
+
+let nombres = ["Alejandra", "Martin", "Pepe"];
+
+Otra forma de declarar un arreglo seria:
+
+let nombres = new Array("Alejandra", "Martin", "Pepe");
+
+Si quisieramos acceder a la primer posicion podriamos hacer:
+
+console.log(nombres[0]);  //Esto devolveria "Alejandra"
+
+En caso de querer acceder al ultimo podriamos hacer lo siguiente: 
+
+console.log(nombres[nombres.length - 1]);
+
+Es decir obtenemos el total de elementos del arreglo con nombres.length y le restamos 1 esto es porque 
+recordemos que las posiciones empiezan por 0 y para acceder a la ultima es el total de elementos menos 
+1.
